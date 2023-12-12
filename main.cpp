@@ -4,8 +4,6 @@
 
 using namespace std;
 
-
-
 int main()
 { srand(time(0));
 int theNumber = rand() % 100+1;
@@ -32,12 +30,6 @@ int tries = 0, guess;
         while (guess != theNumber);
 
         cout << " you have guessed right" << " at the " << tries << "th time" <<endl;
-
-
-
-
-
-
 
 return 0;
 }
